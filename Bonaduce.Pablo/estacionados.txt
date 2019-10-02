@@ -1,1 +1,3 @@
-{"Patente":"AC660YK","Hora":"23:56"}
+{"Patente":"aaa","Hora":"23:56"}
+{"Patente":"222","Hora":"20:33"}
+{"Patente":"333","Hora":"23:33"}
