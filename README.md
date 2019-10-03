@@ -1,2 +1,5 @@
 # TP_PrimerPArcialIsticPP1
-Repositorio de Ejercicios de los alumnos
+Bonaduce_Pablo
+1º Año
+Analista de Sistemas
+Instituto Inmaculada Concepción
