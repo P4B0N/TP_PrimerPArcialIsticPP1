@@ -7,7 +7,8 @@
 <ol>
 	<?php
 	$miArchivo = fopen("registro.txt", "r") ;
-	while(!feof($miArchivo)) {
+	while(!feof($miArchivo)) 
+	{
 		$objeto=json_decode(fgets($miArchivo));
   		if (objeto->Usuario==$_GET['usuario']) and (objeto->Contraseña==$_GET['contraseña']);
   		
