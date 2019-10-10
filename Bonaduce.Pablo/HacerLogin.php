@@ -16,7 +16,7 @@ exit();
 }
 else
 {
-header("Location: no.php");
+header("Location: UsuarioInex.php");
 fclose($archivo);
 exit();
 }

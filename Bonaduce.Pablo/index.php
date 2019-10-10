@@ -28,6 +28,22 @@
             <li class="nav-item">
               <a class="nav-link" href="login.php">INICIAR SESIÓN</a>
             </li>
+            
+            <li class="nav-item active">
+              <a class="nav-link" href="listadoUsuarios.php">USUARIOS<span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item active">
+              <a class="nav-link" href="listadoEst.php">ESTACIONADOS<span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item active">
+              <a class="nav-link" href="Facturar.php">FACTURAR <span class="sr-only">(current)</span></a>
+            </li>
+
+             <li class="nav-item active">
+              <a class="nav-link" href="listaFac.php">FACTURADOS<span class="sr-only">(current)</span></a>
+            </li>
            
           </ul>
         </div>

@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../../../favicon.ico">
-
-    <title>INICIAR SESIÓN</title>
+    <link rel="icon" href="favicon.ico">
+    <title>ESTACIONAMIEMTO</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap.min.css" rel="stylesheet">
@@ -32,6 +31,9 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="login.php">INICIAR SESIÓN</a>
+            </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="Facturar.php">FACTURAR <span class="sr-only">(current)</span></a>
             </li>
             
           </ul>

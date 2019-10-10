@@ -33,7 +33,7 @@
             <li class="nav-item">
               <a class="nav-link" href="login.php">INICIAR SESIÓN</a>
             </li>
-             
+            
           </ul>
           
         </div>
@@ -42,10 +42,10 @@
 
     <!-- Begin page content -->
     <main role="main" class="container">
-    <h1>BIENVENIDO, INGRESE VEHICULO</h1>
-
-  <a href="ingresoVehiculo.php ?>">INGRESAR VEHICULO</a>   
- 	<img src="ok.png"height="450">
+     <h1>VEHICULO INEXISTENTE</h1>
+     
+     <a href="Facturar.php ?>">INTENTAR NUEVAMENTE</a>
+     <img src="error.png" height="450">
     </main>
 
     <footer class="footer">

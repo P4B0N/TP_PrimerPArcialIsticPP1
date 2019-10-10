@@ -2,18 +2,21 @@
 <html>
 <body>
 
-<h2>Listado de vehiculos</h2>
+<h2>VEHICULOS ESTACIONADOS</h2>
 
 <ol>
 	<?php
 	$miArchivo = fopen("estacionados.txt", "r") ;
 	while(!feof($miArchivo)) {
 		$objeto=json_decode(fgets($miArchivo));
-  	
-  		//var_dump($objeto);
-  		echo "<li>";
-  		echo $objeto->Patente,"·····",$objeto->Hora;
-  		echo "</li>";
+  		//if ($objeto->Usuario==$_GET['usuario']) and ($objeto->Contraseña==$_GET['contraseña']);
+  		if(isset($objeto)==true)
+  			{
+  				echo "<li>";
+          echo "Patente: ".$objeto->Patente."-Hora Ingreso: ".date("d-m-Y h:i:sa",$objeto->horaIngreso);
+  		    echo "</li>";
+  			}
+  		break;
 	}
 	fclose($miArchivo);
 ?> 
@@ -22,3 +25,10 @@
 
 </body>
 </html>
+
+<!--           date("Y-m-d h:i:sa",$objetoVehiculo->Horario)."</li></p><br>";
+            }
+
+
+            echo $objeto->Patente,"·····",$objeto->horaIngreso;-->
+            

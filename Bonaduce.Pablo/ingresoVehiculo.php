@@ -7,7 +7,7 @@
     <meta name="author" content="">
     <link rel="icon" href="../../../../favicon.ico">
 
-    <title>REGISTRAR VEHICULO</title>
+    <title>ESTACIONAMIENTO</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap.min.css" rel="stylesheet">
@@ -48,9 +48,9 @@
  PATENTE:<br>
   <input type="text" name="patente" value="">
   <br>
-  HORA:<br>
+  <!--HORA:<br>
   <input type="time" name="hora" value="">
-  <br><br>
+  <br><br>-->
   <input type="submit" value="Ingresar">
 </form> 
     </main>

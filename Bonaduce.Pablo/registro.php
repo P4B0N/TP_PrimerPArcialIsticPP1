@@ -5,9 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../../../favicon.ico">
-
-    <title></title>
+    <link rel="icon" href="favicon.ico">
+    <title>ESTACIONAMIENTO</title>
 
     <!-- Bootstrap core CSS -->
     <link href="bootstrap.min.css" rel="stylesheet">
@@ -33,6 +32,9 @@
             <li class="nav-item">
               <a class="nav-link" href="login.php">INICIAR SESIÓN</a>
             </li>
+            <li class="nav-item active">
+              <a class="nav-link" href="facturar.php">FACTURAR <span class="sr-only">(current)</span></a>
+            </li>
             
           </ul>
           
@@ -42,7 +44,7 @@
     <!-- Begin page content -->
     <main role="main" class="container">
 
-      <h2>REGISTRAR USUARIO</h2>
+      <h1>REGISTRAR USUARIO</h1>
       <form action="HacerRegistro.php">
   Usuario:<br>
   <input type="text" name="usuario" value="">
