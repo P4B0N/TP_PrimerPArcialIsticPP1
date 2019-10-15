@@ -1,5 +1,5 @@
 <?php
-$precio=200;
+$precio=100;
 $patente2 = $_GET['patente'];
 $archivo = fopen('listadoEst.txt', 'r');
 while(!feof ($archivo))
@@ -20,7 +20,7 @@ while(!feof ($archivo))
        $objetoFacturado->fechaSalida = date("d-m-y H:i",$horaSalida);
        $objetoFacturado->importe = $cobrar;
     
-       $archivo1 = fopen('listaFac.txt', 'a');
+       $archivo1 = fopen('facturados.txt', 'a');
        fwrite($archivo1, json_encode($objetoFacturado)."\n");
        fclose($archivo1);
        

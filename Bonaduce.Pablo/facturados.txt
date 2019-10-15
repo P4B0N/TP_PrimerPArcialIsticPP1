@@ -1,0 +1,2 @@
+{"Vehiculo":"AAA 123","fechaEntrada":"15-10-19 11:27","fechaSalida":"15-10-19 11:28","importe":0.8611111111111113}
+{"Vehiculo":"AC660YK","fechaEntrada":"15-10-19 11:27","fechaSalida":"15-10-19 11:28","importe":1.361111111111111}

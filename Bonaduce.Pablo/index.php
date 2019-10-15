@@ -42,7 +42,7 @@
             </li>
 
              <li class="nav-item active">
-              <a class="nav-link" href="listaFac.php">FACTURADOS<span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="facturados.php">FACTURADOS<span class="sr-only">(current)</span></a>
             </li>
            
           </ul>
@@ -53,6 +53,7 @@
     <main role="main" class="container">
       <h1 class="mt-5">SERVICIO DE ESTACIONAMIENTO</h1>
       <p class="lead">EL SITIO MAS SEGURO PARA SU VEHICULO
+       
     </main>
     <img src="est.jpg"height="400">
     <footer class="footer">

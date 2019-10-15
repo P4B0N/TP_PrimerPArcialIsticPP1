@@ -51,24 +51,22 @@
     </header>
     <!-- Begin page content -->
     <main role="main" class="container">
-      <h1>Vehiculos estacionados</h1>
-
     <?php
-  $miArchivo = fopen("listadoEst.txt", "r") ;
+  $miArchivo = fopen("registro.txt", "r") ;
   while(!feof($miArchivo)) {
     $objeto=json_decode(fgets($miArchivo));
       //if ($objeto->Usuario==$_GET['usuario']) and ($objeto->Contraseña==$_GET['contraseña']);
       if(isset($objeto)==true)
         {
-          echo "<li>";
-          echo "Patente: ".$objeto->Patente."-Hora Ingreso: ".date("d-m-Y h:i:sa",$objeto->horaIngreso);
+        echo "<li>";
+          echo $objeto->Usuario,"·····",$objeto->Clave;
           echo "</li>";
         }
       
   }
   fclose($miArchivo);
 ?> 
-  
+
     </main>
     <img src="est.jpg"height="400">
     <footer class="footer">
