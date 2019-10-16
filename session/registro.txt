@@ -1,0 +1,2 @@
+{"Usuario":"pablo ","Clave":"1234"}
+{"Usuario":"bruno","Clave":"9876"}
